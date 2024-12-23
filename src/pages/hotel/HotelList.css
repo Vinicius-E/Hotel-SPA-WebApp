@@ -1,0 +1,124 @@
+.hotelListWrapper {
+    gap: 1rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hotelListTableWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.hotelListTable {
+    gap: 1rem;
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    border: 1px solid black;    
+    background-color:  var(--secondary-color);
+}
+
+.hotelListContent {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+    color: var(--text-color);
+}
+
+.hotelListContent:hover {
+    color: var(--emphasis-primary-color);
+}
+
+.hLName {
+    width: 50%;
+}
+
+.hLPeriod {
+    width: 25%;
+}
+
+.hLNights {
+    width: 25%;
+}
+
+.carousel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.container {
+    gap: 2.5%;
+    width: 100%;
+}
+
+.card {
+    width: 50%;
+    border-radius: 8px; 
+    border: 3px solid black;
+    text-wrap: nowrap !important;
+    background-color:  var(--secondary-color);
+    
+    @media (min-width: 780px){
+        width: 100%;
+    }
+
+    @media (min-width: 1280px){
+        width: 33%;
+    }
+    
+    
+}
+
+.card:hover {
+    background-color:  var(--emphasis-primary-color);
+}
+
+.hotelCard h3, .hotelCard p {
+    margin: 0;
+}
+
+.imgContainer {
+    position: relative;
+    text-align: center;
+}
+
+.imgBackground {
+    width: 100%;
+    height: 450px;
+    border: 3px solid black;
+}
+
+.imgTitle {
+    top: 50%; 
+    left: 50%;
+    width: 100%;
+    position: absolute; 
+    transform: translate(-50%, -50%); 
+}
+
+.imgCard {
+    width: 90%;
+    height: 350px;    
+    border-radius: 8px;
+    border: 1px solid black; 
+}
+
+.cardLink {
+    gap: 0.5rem;
+    display: flex;
+    color: black;
+    padding: 1rem 1rem;
+    align-items: center;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+}

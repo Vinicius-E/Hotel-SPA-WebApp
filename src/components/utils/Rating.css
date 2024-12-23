@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.star {
+    color: white; 
+    font-size: 30px; 
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.star.filled {
+    color: gold; 
+}
+
+.star.half-filled {
+    background: linear-gradient(to right, gold 50%, white 50%); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}

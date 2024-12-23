@@ -1,0 +1,18 @@
+.wrapper {
+    gap: 1rem;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--secondary-color);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.link:hover {    
+    color: var(--emphasis-primary-color);
+}
