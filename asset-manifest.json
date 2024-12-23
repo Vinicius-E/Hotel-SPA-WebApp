@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hotel-SPA-WebApp/static/css/main.01bb2473.css",
+    "main.js": "/Hotel-SPA-WebApp/static/js/main.52d23665.js",
+    "static/js/488.fab374d0.chunk.js": "/Hotel-SPA-WebApp/static/js/488.fab374d0.chunk.js",
+    "index.html": "/Hotel-SPA-WebApp/index.html",
+    "main.01bb2473.css.map": "/Hotel-SPA-WebApp/static/css/main.01bb2473.css.map",
+    "main.52d23665.js.map": "/Hotel-SPA-WebApp/static/js/main.52d23665.js.map",
+    "488.fab374d0.chunk.js.map": "/Hotel-SPA-WebApp/static/js/488.fab374d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01bb2473.css",
+    "static/js/main.52d23665.js"
+  ]
+}
